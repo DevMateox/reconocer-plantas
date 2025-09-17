@@ -20,7 +20,7 @@ from tensorflow.keras.layers import Dense, GlobalAveragePooling2D, Input
 st.markdown("""
 <style>
 .stApp { background-color: #F0FFF0; }
-.titulo { text-align: center; color: #2E7D32; font-size: 36px; font-weight: bold; margin-bottom: 0; }
+.titulo { text-align: center; color: black; font-size: 36px; font-weight: bold; margin-bottom: 0; }
 .subtitulo { text-align: center; color: #4CAF50; font-size: 18px; margin-top: 0; margin-bottom: 30px; }
 div.stButton > button:first-child {
     background-color: #4CAF50; color: white; height: 50px; width: 200px; border-radius: 10px;
@@ -29,10 +29,11 @@ div.stButton > button:first-child {
 </style>
 """, unsafe_allow_html=True)
 
+
 # -----------------------------
 # Título
 # -----------------------------
-st.markdown("<h1 class='titulo'>Detector de salud en plantas</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: black; font-size: 36px; font-weight: bold; margin-bottom: 0;'>Detector de salud en plantas</h1>", unsafe_allow_html=True)
 st.markdown("<p class='subtitulo'>Sube una foto de la hoja de tu planta y obtén un diagnóstico inmediato.</p>", unsafe_allow_html=True)
 
 # -----------------------------
